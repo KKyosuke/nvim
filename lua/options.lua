@@ -1,14 +1,17 @@
 local opt = vim.opt
 
--- 行番号の表示
+-- Line numbers
 opt.number = true
-opt.relativenumber = true
 
--- タブとインデントの設定
-opt.tabstop = 4
-opt.shiftwidth = 4
+-- Tab & Indents
+opt.tabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
 
--- 検索設定
+-- Search Settings
 opt.ignorecase = true
 opt.smartcase = true
+
+-- Cursors
+opt.cursorline = true
+opt.cursorcolumn = true
