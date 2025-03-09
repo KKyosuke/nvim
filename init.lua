@@ -4,6 +4,7 @@
 --     ├── keymaps.lua
 --     ├── options.lua
 --     ├── plugins.lua
+vim.cmd("language en_US")
 
 -- Base Options
 require('options')
