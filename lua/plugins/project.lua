@@ -2,7 +2,9 @@ return {
   "ahmedkhalf/project.nvim",
   config = function()
     require("project_nvim").setup {
-      manual_mode = true,
+      detection_methods = { "pattern" },
+      patterns = { ".git", "Makefile", "package.json" },
     }
+    require("telescope").load_extension("projects")
   end
 }

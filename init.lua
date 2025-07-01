@@ -15,4 +15,3 @@ require('keymaps')
 -- Package Manager
 -- https://lazy.folke.io/
 require("plugin")
-

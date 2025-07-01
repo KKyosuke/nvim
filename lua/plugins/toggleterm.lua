@@ -1,7 +1,8 @@
 return {
   {
     'akinsho/toggleterm.nvim', 
-    version = "v2.13.1", 
+    version = "v2.13.1",
+    cmd = { "ToggleTerm" },
     opts = {
       size = 20,
       direction = 'horizontal',
